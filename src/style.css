@@ -1,0 +1,84 @@
+ * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .gotu-regular {
+        font-family: 'Gotu', sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .signika-font {
+        font-family: 'Signika', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: 'GRAD' -3;
+      }
+      #page1 {
+        background-image: url('/public/page1.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      #page2 {
+        background-color: #323012;
+      }
+      #pageimage {
+        background-image: url('/public/page2.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      #page3 {
+        background-color: #f9f3e5;
+      }
+      #page4 {
+        background-color: #69663a;
+      }
+      #page5 {
+        background-image: url('/public/page3.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      #bg1{
+        background-color: #323012;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        opacity: 90%;
+      }
+      .container {
+        width: 80%;
+        border-radius: 20px;
+        background-color: #323012;
+        overflow: hidden;
+      }
+      .skills {
+        height: 2rem;
+      }
+      .html {
+        width: 95%;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color: #f9f3e5;
+      }
+      .css {
+        width: 80%;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color: #f9f3e5;
+      }
+      .js {
+        width: 40%;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color: #f9f3e5;
+      }
+      .algorithms {
+        width: 80%;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 50px;
+        background-color: #f9f3e5;
+      }
+      #page5 a svg:hover {
+        transform: scale(1.4);
+        transition: 1s;
+      }

@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/x-icon" href="/public/icon.jpg ">
+    <link rel="icon" type="image/x-icon" href="/public/icon.jpg " />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
     <link href=" https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
@@ -48,9 +48,7 @@
         >
           <span class="appear">ABOUT ME</span>
         </div>
-        <div class="px-6 flex-5 sm:flex-3 flex items-center justify-center w-full sm:w-5/12">
-          <div id="pageimage" class="w-full h-full"></div>
-        </div>
+        <img style="object-fit: cover;" src="public/page2.jpg" class="appear px-6 flex-5 sm:flex-3 flex items-center justify-center sm:w-5/12"></img>
         <div
           class="sm:w-4/12 flex-2 appear flex items-center justify-center text-center text-white text-3xl md:text-4xl p-6"
         >
@@ -251,7 +249,7 @@
           const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
               if (entry.isIntersecting) {
-                entry.target.classList.add('appearfirst') 
+                entry.target.classList.add('appearfirst')
                 observer.unobserve(entry.target)
               }
             })

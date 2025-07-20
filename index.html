@@ -246,21 +246,16 @@
     </main>
     <script>
       document.addEventListener('DOMContentLoaded', function () {
-        // Select all elements with the class 'appear'
         const sections = document.querySelectorAll('.appear')
-
-        // Check if there are any sections
         if (sections.length > 0) {
           const observer = new IntersectionObserver((entries) => {
             entries.forEach((entry) => {
               if (entry.isIntersecting) {
-                entry.target.classList.add('appearfirst') // Add the animation class to the visible section
-                observer.unobserve(entry.target) // Stop observing after the animation
+                entry.target.classList.add('appearfirst') 
+                observer.unobserve(entry.target)
               }
             })
           })
-
-          // Observe each section
           sections.forEach((section) => {
             observer.observe(section)
           })

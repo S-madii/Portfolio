@@ -13,12 +13,9 @@
     />
     <meta name="author" content="Mohieddine Soualmia" />
     <title>Mohieddine Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com " />
-    <link rel="preconnect" href="https://fonts.gstatic.com " crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Gotu&family=Signika:GRAD@-3&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4" defer></script>
     <link href=" https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
@@ -29,13 +26,13 @@
         class="flex flex-col text-center justify-center min-h-screen gotu-regular"
         id="page1"
       >
-        <h1 class="text-white text-4xl font-bold" style="color: #ffffff">Mohieddine</h1>
-        <p class="text-white text-xl font-bold" style="color: #ffffff">CS Student</p>
+        <h1 class="text-white text-5xl text-shadow-lg font-bold" style="color: #f9f3e5">Mohieddine</h1>
+        <p><span class="text-white text-xl text-shadow-lg text-shadow-yellow-600"  style="color:  #f3d954">CS Student</span></p>
       </section>
       <section class="flex flex-col sm:flex-row h-[100dvh]" id="page2">
         <div
           style="color: #f9f3e5"
-          class="sm:w-3/12 sm:flex-1 flex items-center justify-center text-center text-white font-bold text-2xl p-6 signika-font"
+          class="sm:w-3/12 sm:flex-1 flex items-center justify-center text-center text-white font-bold text-lg p-5 signika-font"
         >
           ABOUT ME:
         </div>
@@ -43,16 +40,16 @@
           <div id="pageimage" class="w-full h-full"></div>
         </div>
         <div
-          class="sm:w-4/12 flex-2 flex items-center justify-center text-center text-white text-2xl p-6"
+          class="sm:w-4/12 flex-2 flex items-center justify-center  text-center text-white text-3xl md:text-4xl p-6"
         >
-          <p style="color: #f9f3e5" class="signika-font">
-            Actions speak louder <br /><span class="font-semibold">than words</span>
+          <p class="text-shadow-lg signika-font" style="color: #f9f3e5" >
+            Actions speak louder <br><span class="font-bold">than words</span>
           </p>
         </div>
       </section>
       <section class="flex flex-col min-h-screen justify-between signika-font" id="page3">
-        <h2 class="p-10 sm:p-10 flex-1 text-5xl sm:text-6xl font-semibold text-gray-800">
-          Education & <br />
+        <h2 class="p-10 sm:p-10 flex-1 text-5xl sm:text-5xl text-gray-800">
+          Education & <br/>
           Experience
         </h2>
         <div>
@@ -85,32 +82,34 @@
           </div>
         </div>
       </section>
-      <section class="flex flex-col sm:flex-row p-10 min-h-screen gap-6" id="page4">
+      <section class="flex flex-col sm:flex-row p-10 min-h-screen gap-6 py-24" id="page4">
         <div class="flex-3">
-          <h2 class="signika-font text-4xl">WHAT CAN I DO</h2>
-          <h3 class="gotu-regular text-3xl font-bold">Skills & <br />Proficiencies</h3>
+          <div class="flex-col flex gap-14">
+            <h2 class="signika-font text-lg text-white" >WHAT CAN I DO</h2>
+            <h3 class="gotu-regular text-5xl font-semibold text-white">Skills & <br />Proficiencies</h3>
+          </div>
         </div>
-        <div class="flex-2 flex flex-col gap-6 text-lg" id="pageimageT">
+        <div class="flex-2 flex flex-col justify-between text-lg text-white" id="pageimageT">
           <div>
-            <h4 style="font-weight: bold" class="mb-2 gotu-regular">HTML</h4>
+            <h4 style="font-weight: 300;" class="mb-2 gotu-regular">HTML</h4>
             <div class="container">
               <div class="skills html"></div>
             </div>
           </div>
           <div>
-            <h4 style="font-weight: bold" class="mb-2 gotu-regular">CSS</h4>
+            <h4 style="font-weight: 300;" class="mb-2 gotu-regular">CSS</h4>
             <div class="container">
               <div class="skills css"></div>
             </div>
           </div>
           <div>
-            <h4 style="font-weight: bold" class="mb-2 gotu-regular">JavaScript</h4>
+            <h4 style="font-weight: 300;" class="mb-2 gotu-regular">JavaScript</h4>
             <div class="container">
               <div class="skills js"></div>
             </div>
           </div>
           <div>
-            <h4 style="font-weight: bold" class="mb-2 gotu-regular">Algorithms</h4>
+            <h4 style="font-weight: 300;" class="mb-2 gotu-regular">Algorithms</h4>
             <div class="container">
               <div class="skills algorithms"></div>
             </div>
@@ -119,30 +118,30 @@
       </section>
       <section class="flex flex-col p-10 gap-8 bg-[#323012] min-h-screen text-white" id="page5">
         <div class="self-start flex-1 flex flex-col justify-between" id="bg1">
-          <h2 class="text-5xl font-semibold text-gray-200 signika-font">Reach out!</h2>
+          <h2 style="font-weight: 900;" class="text-5xl text-gray-200 signika-font">Reach out!</h2>
           <div class="mt-20">
-            <h3 class="text-4xl font-bold gotu-regular">Mohieddine Soualmia</h3>
+            <h3 style="font-weight: 700;" class="text-3xl gotu-regular" >Mohieddine Soualmia</h3>
             <a
               href="mailto:mohieddine.soualmia@gmail.com"
-              class="text-xl hover:text-blue-100 signika-font transition"
+              class="text-sm hover:text-blue-100 transition"
             >
               Mail me : @Mohieddine </a
             ><br />
-            <a href="tel:+213563XXXXXX" class="text-xl hover:text-blue-100 signika-font transition">
+            <a href="tel:+213563XXXXXX" class="text-sm hover:text-blue-100 signika-font transition">
               +213 563 XXX XXX </a
             ><br />
             <a
               href="https://s-madii.github.io"
               rel="noopener noreferrer"
               target="_blank"
-              class="text-xl hover:text-blue-100 signika-font transition"
+              class="text-sm hover:text-blue-100 signika-font transition"
             >
               Check my website : mohieddine.com
             </a>
           </div>
           <div>
-            <h4 class="text-2xl font-semibold mt-6 text-gray-300 signika-font">Connect with me</h4>
-            <div class="flex gap-6 text-3xl text-gray-400 mt-1">
+            <h4  class="text-3xl mt-6 text-gray-300 signika-font  ">Connect with me</h4>
+            <div class="flex gap-2 text-3xl text-gray-400 mt-1">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
